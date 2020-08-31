@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+      
+div {
+   display: inline-block;
+background-color: #e8e8e8;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+     margin: 20px;  
+    width: 100%;    
+}
+
+input {
+    padding:8px;
+    display: inline-block;
+    width:1000px;
+    border-radius: 3px;
+}
+
+select{
+    padding:8px ;
+    display: inline-block;
+    width: 1000px;
+    border-radius: 3px;
+}
+.textarea {
+     height:250px; 
+     padding:20px;
+    display: inline-block;
+    width:1000px;
+    border-radius: 3.2px;    
+}
+
+.button {
+color:rgba(1, 2, 2, 0.932);
+font-size-adjust: initial;
+background-color: rgb(6, 218, 16);
+}
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+         <div>
+            <p>First Name</p>
+            <input type="text" name="name" placeholder=" Your Name"> <br/>
+                 <p>Second Name</p>
+            <input type="text" name="secondname" placeholder="Last Name.."> <br/>
+            
+         </div> 
+       <p>Town</p>
+       <select name="devices"> 
+          <option type= "value">Cape Coast</option>
+          <option type= "value">Kumasi</option>
+          <option type= "value">Accra</option>
+          <option type= "value">Tamale</option>
+          <option type= "value">Ho</option>
+          <option type= "value">Winneba</option>
+      </select>
+      <div id="subject">
+        <p>Subject</p> 
+        <textarea class="textarea" class="flow;">Write something here.
+        </textarea>
+      </div> 
+      <br/>
+        <button class="button"><strong>Send and save</strong></button>
+      
+        </form>
+    </div>
+    
+   
+</body>
+</html>
